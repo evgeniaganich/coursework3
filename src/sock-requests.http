@@ -1,0 +1,12 @@
+###
+POST http://localhost:8080/api/socks
+Content-Type: application/json
+
+{
+  "color" : "GREEN",
+  "size" : "M",
+  "cottonPart" : 50,
+  "quantity" : 10
+}
+###
+GET http://localhost:8080/api/socks
